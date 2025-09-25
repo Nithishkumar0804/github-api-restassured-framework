@@ -30,9 +30,11 @@ It covers end-to-end testing for **Repositories, Issues, User profile, Starring,
      git clone https://github.com/Nithishkumar080417/github-api-restassured-framework.git
 
 2.**Configure Global.properties**
+
     userId = <your-github-username>
     token  = <your-personal-access-token>
     baseUrl = https://api.github.com
+    
   Personal Access Token must have repo and user scopes.
 
 3.**Run Tests**
